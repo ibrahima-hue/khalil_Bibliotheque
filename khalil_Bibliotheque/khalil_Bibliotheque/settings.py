@@ -74,8 +74,12 @@ WSGI_APPLICATION = 'khalil_Bibliotheque.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'projet_Bibliotheque',
+        'USER': 'root',
+        'PASSWORD': 'Iboundao2003@',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
